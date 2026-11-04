@@ -1,0 +1,42 @@
+---
+title: "practical 1 exerscises"
+author: "Samuel Ladejo"
+---
+Exerscise: using functions
+```{r}
+print(round(3.14159))
+```
+```{r}
+print(round(3.14159, digits=2))
+```
+```{r}
+print(rep(5,7))
+print(rep(x=5, times=7))
+```
+```{r}
+x <- "character variable"
+y <- 1
+z <- TRUE
+
+print(x)
+print(class(x))
+print(y)
+print(class(y))
+print(z)
+print(class(z))
+```
+```{r}
+cell_ID_1 <- "CX1"
+cell_ID_2 <- "CX2"
+
+treated_1 <- TRUE
+treated_2 <- FALSE
+
+num_before_1 <- 5415
+num_before_2 <- 8123
+
+num_after_1 <- 1432
+num_after_2 <- 7543
+
+```
+
