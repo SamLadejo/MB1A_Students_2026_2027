@@ -38,5 +38,37 @@ num_before_2 <- 8123
 num_after_1 <- 1432
 num_after_2 <- 7543
 
+ID_vec <- c(cell_ID_1, cell_ID_2)
+
+treated_vec <- c(treated_1, treated_2)
+
+num_before_vec <- c(num_before_1, num_before_2)
+
+num_after_vec <- c(num_after_1, num_after_2)
+
+all_my_pets <- c("dog", "horse", "guinea pig", "chicken", "cat")
+new_name <- all_my_pets[4]
+print(new_name)
+
+x <- c(2, -4, 6, -2)
+print(x*2)
+print(x>5)
+print(sum(x))
+print(abs(x))
+
+ex_data_frame <- tibble(
+  cell_ID = ID_vec,
+  treated = treated_vec,
+  num_cells_before = num_before_vec,
+  num_cells_after = num_after_vec
+)
+
+gt(ex_data_frame)
+
+
 ```
+
+
+
+
 

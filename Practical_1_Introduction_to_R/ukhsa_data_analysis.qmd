@@ -1,0 +1,22 @@
+---
+title: "ukhsa_data_analysis.qmd"
+author: "Samuel Ladejo"
+---
+```{r}
+library(tidyverse)
+library(gt)
+
+scarlet_fever <- read_csv("data/scarlet-fever-data.csv")
+
+gt(head(scarlet_fever)) 
+
+ggplot(scarlet_fever, aes(
+  x = year,
+  y = metric_value
+)) +
+  geom_line(colour = "maroon") +
+  xlab("Year") +
+  ylab("GP consultation rate") +
+  ggtitle("Rate of Scarlet Fever consultations per year") 
+```
+
